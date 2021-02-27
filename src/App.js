@@ -2,6 +2,7 @@ import React from 'react';
 import ProductList from './components/product-list';
 import TopBar from './components/top-bar';
 import './App.css';
+import Button from './components/button';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="container">
         <ProductList />
       </div>
+      <Button />
     </>
   );
 }
